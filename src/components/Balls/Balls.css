@@ -1,0 +1,30 @@
+.containerEsferas {
+    width: 80%;
+    margin: 4rem auto;
+    background-color: ghostwhite;
+}
+
+.filtroEsferas {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.filtroEsferas select {
+    margin-left: 5px;
+}
+
+.balls ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.balls li {
+    list-style: none;
+    margin: 2rem auto;
+}
+
+.balls img {
+    width: 7rem;
+    height: 7rem;
+}

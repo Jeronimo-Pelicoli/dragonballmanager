@@ -1,0 +1,26 @@
+.shenlong {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem 0;
+    background-color: ghostwhite;
+    text-align: center;
+
+}
+
+.shenlong h1 {
+    margin: 0;
+}
+
+.shenlong button {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border-radius: 10%;
+    border: none;
+    background-color: gold;
+    box-shadow: 0 6px orange;
+}
+
+.shenlong button:active {
+    box-shadow: 0 3px goldenrod;
+    transform: translateY(4px);
+}
