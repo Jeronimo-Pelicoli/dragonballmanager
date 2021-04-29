@@ -1,7 +1,7 @@
-import profile from '../../mocks/profile.json';
+import { profile } from '../../mocks/profile.json';
 
 function profileReducer(state = profile, action) {
-    return state.profile
+    return state
 }
 
 export default profileReducer;
