@@ -1,0 +1,15 @@
+.modal-content img {
+    width: 80%;
+}
+
+.modal-content h3 {
+    margin-bottom: 0;
+}
+
+.button-shenlong {
+    padding: 10px 30px !important;
+}
+
+.error {
+    color: red;
+}

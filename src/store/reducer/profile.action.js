@@ -1,6 +1,13 @@
-export function AddEsferaInProfile(esfera, profile) {
+export function AddBallInProfile(esfera) {
     return {
-        type : 'ADD_ESFERA_IN_PROFILE',
-        payload : [ esfera, profile]
+        type : "ADD_PROFILE",
+        payload : esfera
+    }
+}
+
+export function ResetProfileBall(desejo) {
+    return {
+        type : "RESET_PROFILE_BALL",
+        payload : desejo
     }
 }
